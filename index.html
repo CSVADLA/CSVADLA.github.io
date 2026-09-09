@@ -3,39 +3,283 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Chandra Shekhar Vadla | GenAI Engineer</title>
+
+    <meta
+      name="description"
+      content="Portfolio of Chandra Shekhar Vadla - GenAI Engineer specializing in RAG, Agentic AI, LLM applications, Python, AWS and Azure."
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <header>
-      <h1>Chandra Shekhar Vadla</h1>
-      <p>GenAI Engineer | Agentic AI | RAG | LLM Applications</p>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="#" class="logo">CSV</a>
+
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">GENAI ENGINEER</p>
+
+        <h1>Chandra Shekhar Vadla</h1>
+
+        <h2>
+          Building reliable AI systems with
+          <span>RAG, Agents & LLM Orchestration</span>
+        </h2>
+
+        <p class="hero-description">
+          I build production-oriented AI applications using Python,
+          Retrieval-Augmented Generation, agentic workflows, structured LLM
+          outputs, AWS and Azure.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn primary" href="#projects"> View Projects </a>
+
+          <a
+            class="btn secondary"
+            href="https://github.com/CSVADLA"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+
+          <!-- Enable this after adding resume.pdf -->
+          <a class="btn secondary" href="resume.pdf" target="_blank">
+            Resume
+          </a>
+        </div>
+      </div>
     </header>
 
     <main>
-      <section>
-        <h2>About Me</h2>
-        <p>
-          I build AI applications using Python, RAG, LLM orchestration, AWS,
-          Azure, and modern AI engineering tools.
-        </p>
+      <!-- About -->
+      <section id="about" class="section">
+        <div class="container">
+          <p class="section-label">ABOUT</p>
+
+          <h2 class="section-title">
+            Building AI systems beyond simple demos.
+          </h2>
+
+          <p class="about-text">
+            My focus is Generative AI engineering: designing systems that
+            retrieve reliable information, orchestrate LLM workflows, validate
+            model outputs, handle failures and expose AI capabilities through
+            maintainable software.
+          </p>
+
+          <p class="about-text">
+            I work primarily with Python, RAG, LangChain/LangGraph, LLM APIs,
+            AWS, Azure, SQL and modern software engineering practices.
+          </p>
+        </div>
       </section>
 
-      <section>
-        <h2>Projects</h2>
+      <!-- Projects -->
+      <section id="projects" class="section alternate">
+        <div class="container">
+          <p class="section-label">FEATURED WORK</p>
 
-        <h3>RAG Citation Agent</h3>
-        <p>Retrieval-Augmented Generation system with citation grounding.</p>
+          <h2 class="section-title">Projects</h2>
 
-        <h3>Structured Output Agent</h3>
-        <p>LLM application with Pydantic validation, retries, and logging.</p>
+          <div class="project-grid">
+            <!-- Project 1 -->
+            <article class="project-card">
+              <div class="project-number">01</div>
+
+              <h3>RAG Citation Agent</h3>
+
+              <p>
+                Retrieval-Augmented Generation system that retrieves relevant
+                document chunks, generates grounded answers and preserves source
+                attribution for citations.
+              </p>
+
+              <div class="tech-stack">
+                <span>Python</span>
+                <span>RAG</span>
+                <span>Embeddings</span>
+                <span>Vector Search</span>
+                <span>Ollama</span>
+              </div>
+
+              <a
+                href="https://github.com/CSVADLA/rag-citation-agent"
+                target="_blank"
+                rel="noreferrer"
+                class="project-link"
+              >
+                View Repository →
+              </a>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card">
+              <div class="project-number">02</div>
+
+              <h3>Structured Output Agent</h3>
+
+              <p>
+                LLM application designed around reliable structured responses
+                using schema validation, retries, error handling and logging.
+              </p>
+
+              <div class="tech-stack">
+                <span>Python</span>
+                <span>Pydantic</span>
+                <span>LLMs</span>
+                <span>Validation</span>
+                <span>Logging</span>
+              </div>
+
+              <a
+                href="https://github.com/CSVADLA/structured-output-agent"
+                target="_blank"
+                rel="noreferrer"
+                class="project-link"
+              >
+                View Repository →
+              </a>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card">
+              <div class="project-number">03</div>
+
+              <h3>Agentic AI Project</h3>
+
+              <p>
+                Multi-step AI workflow focused on orchestration, tool use,
+                decision-making and reliable execution.
+              </p>
+
+              <div class="tech-stack">
+                <span>Python</span>
+                <span>LangGraph</span>
+                <span>Agents</span>
+                <span>Tool Calling</span>
+              </div>
+
+              <span class="project-status"> In Development </span>
+            </article>
+          </div>
+        </div>
       </section>
 
-      <section>
-        <h2>Skills</h2>
-        <p>Python | LangChain | LangGraph | RAG | AWS | Azure | SQL | Git</p>
+      <!-- Skills -->
+      <section id="skills" class="section">
+        <div class="container">
+          <p class="section-label">TECHNICAL SKILLS</p>
+
+          <h2 class="section-title">Technologies I work with</h2>
+
+          <div class="skills-grid">
+            <div class="skill-group">
+              <h3>Generative AI</h3>
+
+              <p>
+                RAG, Agentic AI, LLM Applications, Prompt Engineering,
+                Structured Outputs, Embeddings, Vector Search
+              </p>
+            </div>
+
+            <div class="skill-group">
+              <h3>Frameworks</h3>
+
+              <p>LangChain, LangGraph, Pydantic, Ollama</p>
+            </div>
+
+            <div class="skill-group">
+              <h3>Engineering</h3>
+
+              <p>Python, SQL, REST APIs, Git, GitHub, Testing, Logging</p>
+            </div>
+
+            <div class="skill-group">
+              <h3>Cloud</h3>
+
+              <p>AWS, Amazon Bedrock, Azure OpenAI, Azure</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="section alternate">
+        <div class="container">
+          <p class="section-label">EXPERIENCE</p>
+
+          <h2 class="section-title">What I work on</h2>
+
+          <div class="experience-card">
+            <h3>AI / Machine Learning Engineering</h3>
+
+            <p>
+              Designing AI-enabled systems involving retrieval, language models,
+              workflow orchestration, data pipelines and cloud-based AI
+              services.
+            </p>
+
+            <p>
+              Current focus areas include reliable RAG architectures, agentic AI
+              systems, LLM evaluation, structured model outputs and
+              production-oriented application design.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section contact-section">
+        <div class="container">
+          <p class="section-label">CONTACT</p>
+
+          <h2 class="section-title">Let's connect.</h2>
+
+          <p class="contact-text">
+            I'm interested in opportunities involving Generative AI, AI
+            Engineering, RAG, Agentic AI and Machine Learning.
+          </p>
+
+          <div class="contact-links">
+            <a
+              href="https://github.com/CSVADLA"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+
+            <!-- Replace with your actual LinkedIn URL -->
+            <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noreferrer">
+              LinkedIn
+            </a>
+          </div>
+        </div>
       </section>
     </main>
+
+    <footer>
+      <div class="container">
+        <p>© 2026 Chandra Shekhar Vadla</p>
+      </div>
+    </footer>
   </body>
 </html>
